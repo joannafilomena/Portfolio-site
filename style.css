@@ -1,0 +1,302 @@
+html {
+    box-sizing:border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+.newbody {
+    background-color: black;
+}
+
+.newbody.body {
+    background-image: url('C:/Users/frontend/Desktop/In/Portfolio/image/4.jpg');
+    background-size: auto;
+}
+
+.newbutton {
+    font-family: 'Lexend Tera', sans-serif;
+    letter-spacing: -1px;
+    border-width: 0;
+    background-color: #ffd16680;
+    position:absolute;
+    right: 5%;
+    color: white;
+}
+
+.newbutton.button {
+    border-width: 1;
+    border-color: #073b4c61;
+    background-color: #ffd16680;
+    position:absolute;
+    left: 5%;
+}
+
+.newheader {
+    margin: 3% auto;
+    padding-bottom: 1%;
+    border-bottom: 2px hidden white;
+}
+
+.newheader.header {
+    background-color:#073b4c8e;
+    border: 2px solid #e9c46a61;
+    margin: 1% 5%;
+    padding-bottom: 0;
+    padding-right: 2%;
+}
+
+.newheader h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150%;
+    text-align: center;
+}
+
+.newheader.header h1 {
+    color: #06d6a0d3;
+    font-family: 'Sacramento', cursive;
+    font-size: 270%;
+    text-align: right;
+    text-shadow: 2px 2px 15px black;
+}
+
+.newheader h2 {
+    color: #ffd166ab;
+    text-align: center;
+    font-family: 'Lexend Tera', sans-serif;
+    font-size: 200%;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.newheader.header h2 {
+    color: #ffd166ab;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 180%;
+    text-align: right;
+    text-decoration: overline double #ffd16688;
+}
+
+.newlinks {
+    width: 100%;
+    text-align: center;
+    padding: auto;
+}
+
+main.menu {
+    width: 100%;
+}
+
+.newlinks.links {
+    background-color: #ffd16680;
+    border: 2px solid #073b4c61;
+    margin: 3% 0% 6% 6%;
+    text-align: center;
+    font-weight: bolder;
+    display: none;
+    float: left;
+    position: fixed;
+    width: 20%;
+}
+
+.newlinks p {
+    display: inline-block;
+}
+
+.newlinks a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.newlinks a:hover {
+    transform: scale(1, -1); 
+    color:#ffd166ab; 
+}
+
+.newlinks.links a {
+    text-decoration: none;
+    color: #073b4ce8;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6vw;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.newlinks.links a:hover {
+    transform: scale(1, -1); 
+    color:#ef476f8f; 
+}
+
+.newmenu { 
+    color: rgba(234, 245, 243, 0.918);
+    display: none;
+    margin: 6% auto;
+    padding: 2%;
+    max-width: 1000px;
+}
+
+.newmenu.menu {
+    display: none;
+    color: rgba(234, 245, 243, 0.918);
+    background-color: #ffd16680;
+    border: 2px solid #073b4c61;
+    margin-right:6%;
+    float: right;
+    width: 60%;
+    position: initial;
+    margin: 3% 6% 3% 1%;
+}
+
+.newmenu.about {
+    color: #ffe19bc4;
+    font-family: 'Raleway', sans-serif;
+    padding: 2%;
+    text-align: justify;
+    line-height: 1.2;
+}
+
+.newmenu.menu.about {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: justify;
+    font-size: 110%;
+    color: #073b4c;
+}
+
+.newmenu.know {
+    color: #ffe19bc4;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 150%;
+}
+
+.newmenu.menu.know {
+    color: #118ab2ef;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    text-decoration: overline;
+    text-align: center;
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+.newmenu.project {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.newmenu.menu.project {
+    font-family: 'Playfair Display', serif;
+}
+
+.newmenu.menu.project .hello {
+    background-color: #073b4c8e;
+    border: 2px solid #e9c46a61;
+}
+
+#p2, #p3 {
+    display: none;
+    font-family: 'Playfair Display', serif;
+}
+
+.newmenu .calc {
+    margin: auto;
+    padding: 1% auto;
+    min-width: 30%;
+    max-width: 40%;
+    height: 60%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 90%;
+    border: 1px dotted white;
+}
+
+.newmenu.menu .calc {
+    background-color: #073b4c8e;
+    border: 2px solid #e9c46a61;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5vw;
+}
+
+.newmenu input {
+    padding: 3% 2%;
+    margin: 4px;
+    border: 0;
+    background-color: #ffd166ab;
+    width: 35%;
+    text-align: center;
+}
+
+.newmenu.menu input {
+    background-color: #118ab285;
+    max-width: 35%;
+}
+
+.newmenu input#input {
+    width: auto;
+    padding: 1.5%;
+}
+
+.newmenu button {
+    padding: 1.5%;
+    margin: 4px;
+    width: 15.8%;
+    height: 15.8%;
+    background-color: #ffe19bc4;
+    border: hidden;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 7%;
+}
+
+.newmenu.menu button {
+    background-color: #ffe19b81;
+    font-family: 'Playfair Display', serif;
+    min-width: 30%;
+}
+
+.newmenu button.enter {
+    border-radius: 0;
+}
+
+.newmenu.contact {
+    color: #ffe19bc4;
+    font-family: 'Raleway', sans-serif;
+    font-size: 120%;
+    text-align: center;
+}
+
+.newmenu.contact a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.76);
+}
+
+.newmenu.menu.contact {
+    color: #118ab2ef;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 160%;
+}
+
+.newmenu.menu.contact a {
+    color: #073b4ce8;
+}
+
+button:hover {
+    border: 1px solid white 
+}
+
+button:active{
+    font-weight: bolder;
+}
+
+button:focus {
+    outline: 0;
+}
